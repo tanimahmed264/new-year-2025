@@ -1,0 +1,133 @@
+/* font  merriweather f1 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* font Inter f2 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared Style Start */
+.f1 {
+    font-family: "Merriweather", serif;
+}
+
+.f2 {
+    font-family: "Inter", sans-serif;
+}
+
+.sub-title {
+    font-size: 30.72px;
+    line-height: 38.4px;
+    padding-top: 162px;
+    padding-bottom: 30px;
+    font-weight: 400px;
+}
+
+.primary-title {
+    font-size: 69.12px;
+    line-height: 80.2px;
+    font-weight: 900px;
+}
+
+.df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tal {
+    text-align: left;
+}
+
+.clb {
+    color: rgba(7, 2, 17, 1);
+}
+
+.clw {
+    color: rgba(255, 255, 255, 1);
+}
+
+.clr {
+    color: rgba(255, 0, 0, 1);
+}
+
+.cllw {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.clmlb {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+main {
+    margin: 48px 134px
+}
+
+/* Shared Style end */
+
+/* Header Part Start */
+.header-container {
+    background-image: linear-gradient(180.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url('/images/Banner\ Image.png');
+
+    height: 562px;
+    border-radius: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Heaader Part End */
+
+
+/* Footer Part Start */
+
+.footer-description {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+.bgb {
+    background: rgba(7, 2, 17, 1);
+}
+
+.footer-row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 134px 10px 134px;
+}
+
+.footer-row2 {
+    display: flex;/*  */
+    justify-content: center;
+    gap: 20px;
+    padding: 41px 134px 41px 134px;
+}
+
+.footer-row3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 134px 10px 134px;
+}
+
+hr {
+    margin-left: 134px;
+    margin-right: 134px;
+
+
+}
+
+/* Footer Part End */
