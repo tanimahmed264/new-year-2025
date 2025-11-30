@@ -87,6 +87,90 @@ main {
 
 /* Heaader Part End */
 
+/* category part start */
+.catagory-container {
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.color-title {
+    font-size: 84.48px;
+    line-height: 101.76px;
+    font-weight: 700;
+}
+
+.color-sub-title {
+    font-size: 23.04px;
+    line-height: 27.84px;
+    font-weight: 700;
+    padding-top: 46.08px;
+}
+
+.sec-title {
+    font-size: 46.08px;
+    line-height: 55.68px;
+    font-weight: 700;
+    padding-top: 15.36px;
+}
+
+.category-img {
+    padding-top: 46.08px;
+}
+
+/* category part end */
+
+/* party part start */
+.party-container {
+    
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%) , url('../images/Vectorrr.png');
+    border-radius: 16px;
+    width:100%;
+    height: 491px;
+    margin-bottom: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-row1 {
+    padding-left: 100px;
+   padding-bottom: 25px;
+}
+
+.title {
+    font-size: 61.44px;
+    font-weight: 900;
+    
+
+}
+
+.description {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+.btn-text {
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+.party-row2 {
+    padding-right: 115px;
+
+}
+
+/* party part end */
+
 
 /* Footer Part Start */
 
@@ -110,7 +194,8 @@ main {
 }
 
 .footer-row2 {
-    display: flex;/*  */
+    display: flex;
+    /*  */
     justify-content: center;
     gap: 20px;
     padding: 41px 134px 41px 134px;
