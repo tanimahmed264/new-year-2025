@@ -25,6 +25,7 @@
     padding-top: 162px;
     padding-bottom: 30px;
     font-weight: 400px;
+
 }
 
 .primary-title {
@@ -121,15 +122,15 @@ main {
 
 /* party part start */
 .party-container {
-    
-    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%) , url('../images/Vectorrr.png');
+
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
     border-radius: 16px;
-    width:100%;
+    width: 100%;
     height: 491px;
     margin-bottom: 96px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center ;
+    background-position: center;
     position: relative;
     align-items: center;
     display: flex;
@@ -139,13 +140,13 @@ main {
 
 .party-row1 {
     padding-left: 100px;
-   padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .title {
     font-size: 61.44px;
     font-weight: 900;
-    
+
 
 }
 
@@ -170,6 +171,35 @@ main {
 }
 
 /* party part end */
+
+/* schedule part start */
+.secudle-container {
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 96px;
+    padding: 96px;
+}
+
+.schedule-title {
+    font-size: 30.72px;
+    line-height: 50px;
+    font-weight: 600px;
+}
+
+
+.btn-primary{
+    background: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+/* schedule part start */
 
 
 /* Footer Part Start */
