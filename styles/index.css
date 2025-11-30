@@ -268,7 +268,7 @@ main {
 }
 
 .sale-img-container{
-    background-image: url('../images/Rectangle\ 2.png');
+    background-image: url('/images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -292,9 +292,7 @@ main {
     padding-right: 236px;
 }
 
-.sale-img-row2-row2{
 
-}
 /* sale part end */
 
 /* Footer Part Start */
