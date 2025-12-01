@@ -276,7 +276,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .sale-img-row2{
@@ -284,7 +284,7 @@ main {
     justify-content: end;
     align-items: center;
     padding-bottom: 192px;
-    
+
 }
 
 .sale-img-row2-row1{
@@ -296,6 +296,75 @@ main {
 /* sale part end */
 
 /* Footer Part Start */
+
+/* featur part start */
+.feature-container {
+    margin-bottom: 96px;
+}
+
+.feature-content{
+    padding-bottom: 60px;
+}
+
+
+.feature-title{
+    font-weight: 900px;
+    padding-bottom: 10px;
+}
+
+.feature-img-col1,.feature-img-col2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.feature-img-hvr:hover {
+    cursor: pointer;
+    filter: opacity(0.9);
+    border: 1px solid rgb(198, 20, 183);
+    border-radius: 15px;
+}
+
+/* featur part start */
+
+/* newsletter part start */
+
+
+.newsletter-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 96px;
+    padding-bottom: 70px;
+    padding-top: 80px;
+}
+
+.iput-field{
+    margin-top: 45px;
+}
+
+button {
+    margin-left: -30px;
+    background-color: rgb(255, 0, 0, 1);
+    border-radius: 0 50px 50px 0;
+    color: white;
+    padding: 25px 60px;
+    border: none;
+    font-weight: 600px;
+}
+
+.newsletter-input {
+    border-radius: 50px 0 0 50px;
+    color: white;
+    padding: 25px 245px 25px 30px;
+    border: none;
+    font-weight: 600px;
+}
+/* newsletter part start */
 
 .footer-description {
     color: rgba(255, 255, 255, 1);
